@@ -2,7 +2,26 @@
     list-style-type: none;
     padding: 30px;
 }
+.navLink {
+    text-decoration: none;
+}
+
+main{
+    background-color: rgb(236, 211, 166);
+}
 
 .productList {
     margin: 5px;
+}
+
+.headerColor {
+    background-color: orange;
+}
+
+.buttonColor {
+    color: red;
+}
+
+.bannerShadow {
+    box-shadow: 5px 20px 20px 5px;
 }
