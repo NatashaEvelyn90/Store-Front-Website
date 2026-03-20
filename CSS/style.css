@@ -4,10 +4,12 @@
 }
 .navLink {
     text-decoration: none;
+    
 }
 
 main{
-    background-color: rgb(236, 211, 166);
+    /* background-color: rgb(236, 211, 166); */
+    background-color: #5d2c0b
 }
 
 .productList {
@@ -15,7 +17,7 @@ main{
 }
 
 .headerColor {
-    background-color: orange;
+    background-color: #c07a17;
 }
 
 .buttonColor {
@@ -23,5 +25,6 @@ main{
 }
 
 .bannerShadow {
-    box-shadow: 5px 20px 20px 5px;
+    box-shadow: 10px 12px 20px 5px black;
+    border: solid 5px black;
 }

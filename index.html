@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/bootstrap.min.css">
     <title>Beauty Within</title>
 </head>
 <body>
+    <!--? Navigation Section  -->
     <header class="headerColor">
         <div class="container-fluid">
             <nav>
                 <ul class="classicNav d-flex flex-row justify-content-end align-items-center m-0 p-0">
                     <li class="me-auto"><a href="index.html" class="me-3 navLink"><img src="./Media/2026-03-19-Beauty-Within.gif" alt="" width="600" height="200"></a></li>
 
-                    <!-- <li class="mb-3"><a class="me-3 navLink" href="index.html">Home</a></li> -->
                     <li class="fs-2"><a class="me-3 navLink" href="products.html">Products</a></li>
                     <li class="fs-2"><a class="me-3 navLink" href="founder.html">About The Founder</a></li>
                     <li class="fs-2"><a class="me-3 navLink" href="contact.html">Contact</a></li>
@@ -24,35 +27,54 @@
     </header>
 
     <main>
-        <div class="container-fluid">
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active mt-5">
-                        <img src="./Media/lipstick.webp" class="d-block w-50 rounded mx-auto bannerShadow" alt="..."  height="400">
+        <!--? Carousel Section  -->
+        <section>
+            <div class="container-fluid">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active mt-5 mb-5">
+                            <img src="./Media/lipstick.webp" class="d-block w-50 rounded mx-auto bannerShadow" alt="..."  height="400">
+                            <h3 class="text-center mt-5">Original</h3>
+                        </div>
+                        <div class="carousel-item mt-5 mb-5">
+                            <img src="./Media/hairproducts.jpg" class="d-block w-50 rounded mx-auto bannerShadow" alt="..." height="400">
+                            <h3 class="text-center mt-5">Honest</h3>
+                        </div>
+                        <div class="carousel-item mt-5 mb-5">
+                            <img src="./Media/pinkeyeshadow.webp" class="d-block w-50 rounded mx-auto bannerShadow" alt="..." height="400">
+                            <h3 class="text-center mt-5">Glam</h3>
+                        </div>
                     </div>
-                    <div class="carousel-item mt-5">
-                        <img src="./Media/hairproducts.jpg" class="d-block w-50 rounded mx-auto bannerShadow" alt="..." height="400">
-                    </div>
-                    <div class="carousel-item mt-5">
-                        <img src="./Media/pinkeyeshadow.webp" class="d-block w-50 rounded mx-auto bannerShadow" alt="..." height="400">
-                    </div>
-                </div>
-
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div> <br>
+    
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+    
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div> <br>
+        </section>
 
             <h1 class="text-center">Welcome!</h1>
-            
 
-            <!-- <p>Hello and welcome to our store! </p> -->
+            <section class="card-grid d-flex flex-row flex-wrap justify-content-evenly">
+            <div class="card">
+                <h3>Strategy</h3>
+                <p>We plan your digital roadmap to ensure long-term growth and stability.</p>
+            </div>
+            <div class="card">
+                <h3>Design</h3>
+                <p>Beautiful, responsive interfaces that look great on any device or screen.</p>
+            </div>
+            <div class="card">
+                <h3>Launch</h3>
+                <p>Seamless deployment and ongoing support to keep your site running fast.</p>
+            </div>
+        </section>
+
 
             <p class="w-50 p-3">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto maiores praesentium a veritatis modi quibusdam, eveniet voluptatibus sit quam repellat sint ut blanditiis labore quod qui numquam aliquid incidunt harum?
